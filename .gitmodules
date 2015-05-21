@@ -1,0 +1,3 @@
+[submodule "PhysioBluffGame"]
+	path = PhysioBluffGame
+	url = git@github.com:potioc/PhysioBluffGame.git
