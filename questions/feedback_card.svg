@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="feedback_card.svg">
+  <defs
+     id="defs4">
+    <filter
+       id="filter4436"
+       inkscape:label="Motion blur, horizontal"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4438"
+         in="SourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4460" />
+      <feGaussianBlur
+         id="feGaussianBlur4462"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4484" />
+      <feGaussianBlur
+         id="feGaussianBlur4486"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01" />
+    </filter>
+    <filter
+       id="filter4440"
+       inkscape:label="Motion blur, horizontal"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4442"
+         in="SourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4464" />
+      <feGaussianBlur
+         id="feGaussianBlur4466"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4488" />
+      <feGaussianBlur
+         id="feGaussianBlur4490"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01" />
+    </filter>
+    <filter
+       id="filter4444"
+       inkscape:label="Motion blur, horizontal"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4446"
+         in="SourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4468" />
+      <feGaussianBlur
+         id="feGaussianBlur4470"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4492" />
+      <feGaussianBlur
+         id="feGaussianBlur4494"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01" />
+    </filter>
+    <filter
+       id="filter4448"
+       inkscape:label="Motion blur, horizontal"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4450"
+         in="SourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4472" />
+      <feGaussianBlur
+         id="feGaussianBlur4474"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4496" />
+      <feGaussianBlur
+         id="feGaussianBlur4498"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01" />
+    </filter>
+    <filter
+       id="filter4452"
+       inkscape:label="Motion blur, horizontal"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4454"
+         in="SourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4476" />
+      <feGaussianBlur
+         id="feGaussianBlur4478"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4500" />
+      <feGaussianBlur
+         id="feGaussianBlur4502"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01" />
+    </filter>
+    <filter
+       id="filter4456"
+       inkscape:label="Motion blur, horizontal"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4458"
+         in="SourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4480" />
+      <feGaussianBlur
+         id="feGaussianBlur4482"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4504" />
+      <feGaussianBlur
+         id="feGaussianBlur4506"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01" />
+    </filter>
+    <filter
+       id="filter3172"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur3174"
+         stdDeviation="5.0924795"
+         inkscape:collect="always" />
+    </filter>
+    <linearGradient
+       id="linearGradient3134">
+      <stop
+         id="stop3136"
+         style="stop-color:#ffb300;stop-opacity:1;"
+         offset="0" />
+      <stop
+         offset="1"
+         style="stop-color:#ff9900;stop-opacity:1;"
+         id="stop3165" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3149">
+      <stop
+         offset="0"
+         style="stop-color:#f3c381;stop-opacity:1;"
+         id="stop3151" />
+      <stop
+         id="stop3172"
+         style="stop-color:#f4b24e;stop-opacity:1;"
+         offset="0.25" />
+      <stop
+         id="stop3171"
+         style="stop-color:#f39502;stop-opacity:1;"
+         offset="0.5" />
+      <stop
+         id="stop3153"
+         style="stop-color:#f67805;stop-opacity:1;"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3233">
+      <stop
+         style="stop-color:#f10f07;stop-opacity:1;"
+         offset="0"
+         id="stop3235" />
+      <stop
+         style="stop-color:#780804;stop-opacity:1;"
+         offset="1"
+         id="stop3237" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3090">
+      <stop
+         style="stop-color:#f10f07;stop-opacity:1;"
+         offset="0"
+         id="stop3092" />
+      <stop
+         style="stop-color:#780804;stop-opacity:1;"
+         offset="1"
+         id="stop3094" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3134-3">
+      <stop
+         id="stop3136-7"
+         style="stop-color:#ffb300;stop-opacity:1;"
+         offset="0" />
+      <stop
+         offset="1"
+         style="stop-color:#ff9900;stop-opacity:1;"
+         id="stop3165-0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3149-9">
+      <stop
+         offset="0"
+         style="stop-color:#f3c381;stop-opacity:1;"
+         id="stop3151-8" />
+      <stop
+         id="stop3172-1"
+         style="stop-color:#f4b24e;stop-opacity:1;"
+         offset="0.25" />
+      <stop
+         id="stop3171-1"
+         style="stop-color:#f39502;stop-opacity:1;"
+         offset="0.5" />
+      <stop
+         id="stop3153-9"
+         style="stop-color:#f67805;stop-opacity:1;"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient10533">
+      <stop
+         offset="0"
+         style="stop-color:#f3c381;stop-opacity:1;"
+         id="stop10535" />
+      <stop
+         id="stop10537"
+         style="stop-color:#f4b24e;stop-opacity:1;"
+         offset="0.25" />
+      <stop
+         id="stop10539"
+         style="stop-color:#f39502;stop-opacity:1;"
+         offset="0.5" />
+      <stop
+         id="stop10541"
+         style="stop-color:#f67805;stop-opacity:1;"
+         offset="1" />
+    </linearGradient>
+    <filter
+       id="filter10679"
+       inkscape:label="Motion blur, horizontal"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur10681"
+         in="SourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix10683" />
+      <feGaussianBlur
+         id="feGaussianBlur10685"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix10687" />
+      <feGaussianBlur
+         id="feGaussianBlur10689"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01" />
+    </filter>
+    <linearGradient
+       id="linearGradient2250">
+      <stop
+         id="stop2252"
+         offset="0"
+         style="stop-color:#008700;stop-opacity:1;" />
+      <stop
+         id="stop2254"
+         offset="1"
+         style="stop-color:#006f00;stop-opacity:1;" />
+    </linearGradient>
+    <filter
+       id="filter10679-9"
+       inkscape:label="Motion blur, horizontal"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur10681-3"
+         in="SourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix10683-7" />
+      <feGaussianBlur
+         id="feGaussianBlur10685-3"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix10687-2" />
+      <feGaussianBlur
+         id="feGaussianBlur10689-1"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01" />
+    </filter>
+    <filter
+       id="filter10679-7"
+       inkscape:label="Motion blur, horizontal"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur10681-2"
+         in="SourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix10683-75" />
+      <feGaussianBlur
+         id="feGaussianBlur10685-2"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix10687-6" />
+      <feGaussianBlur
+         id="feGaussianBlur10689-3"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01" />
+    </filter>
+    <filter
+       id="filter3316"
+       inkscape:label="Motion blur, horizontal"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3318"
+         in="SourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3320" />
+      <feGaussianBlur
+         id="feGaussianBlur3322"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3324" />
+      <feGaussianBlur
+         id="feGaussianBlur3326"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01" />
+    </filter>
+    <filter
+       id="filter3328"
+       inkscape:label="Motion blur, horizontal"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur as if the object flies horizontally; adjust Standard Deviation to vary force"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3330"
+         in="SourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3332" />
+      <feGaussianBlur
+         id="feGaussianBlur3334"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3336" />
+      <feGaussianBlur
+         id="feGaussianBlur3338"
+         in="fbSourceGraphic"
+         stdDeviation="5 0.01" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3134"
+       id="linearGradient3280"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2084425,0,0,1.2084425,89.669573,106.93911)"
+       x1="-49.164131"
+       y1="-82.266502"
+       x2="227.38515"
+       y2="216.95886" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3149"
+       id="linearGradient3282"
+       gradientUnits="userSpaceOnUse"
+       x1="15.087464"
+       y1="9.8531685"
+       x2="120.05667"
+       y2="108.72849" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3149"
+       id="linearGradient3284"
+       gradientUnits="userSpaceOnUse"
+       x1="15.087464"
+       y1="9.8531685"
+       x2="120.05667"
+       y2="108.72849" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2250"
+       id="radialGradient3227"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.10194522,0,0,0.10018973,280.32921,762.12554)"
+       cx="300"
+       cy="300"
+       fx="300"
+       fy="300"
+       r="292.31146" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3233"
+       id="linearGradient3344"
+       gradientUnits="userSpaceOnUse"
+       x1="-90.534569"
+       y1="39.903343"
+       x2="-68.942833"
+       y2="92.030403" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3233"
+       id="linearGradient3346"
+       gradientUnits="userSpaceOnUse"
+       x1="-68.908119"
+       y1="92.114204"
+       x2="-90.298927"
+       y2="40.472229" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="843.86678"
+     inkscape:cy="607.71672"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-grids="false"
+     inkscape:snap-center="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1145"
+     inkscape:window-x="1918"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3309">
+      <g
+         transform="matrix(0.57535038,0,0,0.57535038,-28.503147,687.69268)"
+         id="g4173">
+        <path
+           sodipodi:type="arc"
+           style="fill:#418c57;fill-opacity:1;stroke:none"
+           id="path2989"
+           sodipodi:cx="244.45691"
+           sodipodi:cy="193.73251"
+           sodipodi:rx="68.690376"
+           sodipodi:ry="68.690376"
+           d="m 313.14729,193.73251 c 0,37.93665 -30.75373,68.69038 -68.69038,68.69038 -37.93665,0 -68.69038,-30.75373 -68.69038,-68.69038 0,-37.93664 30.75373,-68.69037 68.69038,-68.69037 37.93665,0 68.69038,30.75373 68.69038,68.69037 z"
+           transform="translate(-50.507628,-18.182746)" />
+        <path
+           style="fill:none;stroke:#418c57;stroke-width:18.45761871;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 193.91077,235.72561 45.49538,146.90543 118.71219,-0.28841 92.44821,126.9908"
+           id="path2993"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:none;stroke:#418c57;stroke-width:18.45761871;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 394.41956,292.37992 -87.33318,35.7029 -85.31288,-30.96717"
+           id="path2993-5"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccc" />
+      </g>
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path2993-6"
+         d="m 134.83387,887.14264 158.64315,-1.99289 36.91676,92.82473 -71.1849,0.99644"
+         style="fill:none;stroke:#808080;stroke-width:10.61959839;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path2993-6-4"
+         d="m 65.510141,845.0709 24.969079,84.02348 72.95064,-1.32832 -33.98864,53.30369"
+         style="fill:none;stroke:#808080;stroke-width:10.61959839;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:export-ydpi="223"
+         inkscape:export-xdpi="223"
+         inkscape:export-filename="/home/jfrey/onion_light/sign_good.png"
+         inkscape:connector-curvature="0"
+         d="m 281.11301,802.84738 c 0,0 11.74056,13.22104 14.08867,18.6217 l 10.09688,0 c 4.22661,-12.91462 20.66338,-43.74649 34.75205,-54.5478 2.91903,-3.75303 -4.41401,-5.3022 -10.33169,-2.81774 -8.91882,3.74445 -25.73997,32.33377 -28.88177,39.21346 -4.46141,1.17406 -9.15764,-7.51395 -9.15764,-7.51395 l -10.5665,7.04433 z"
+         style="fill:url(#radialGradient3227);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="check" />
+    </g>
+    <g
+       id="g3295">
+      <g
+         transform="matrix(0.57535038,0,0,0.57535038,45.000343,58.565931)"
+         id="g4205">
+        <path
+           sodipodi:type="arc"
+           style="fill:#ff761d;fill-opacity:1;stroke:none"
+           id="path2989-3"
+           sodipodi:cx="244.45691"
+           sodipodi:cy="193.73251"
+           sodipodi:rx="68.690376"
+           sodipodi:ry="68.690376"
+           d="m 313.14729,193.73251 c 0,37.93665 -30.75373,68.69038 -68.69038,68.69038 -37.93665,0 -68.69038,-30.75373 -68.69038,-68.69038 0,-37.93664 30.75373,-68.69037 68.69038,-68.69037 37.93665,0 68.69038,30.75373 68.69038,68.69037 z"
+           transform="translate(-120.27045,502.27542)" />
+        <path
+           style="fill:none;stroke:#ff761d;stroke-width:18.45761871;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 79.211018,723.71531 c 0,0 -12.589287,35.83239 -8.883931,65.89144 l 8.258924,100.17716 118.712189,-0.28841 15.67662,120.9299"
+           id="path2993-1"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#ff761d;stroke-width:18.45761871;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="M 229.55881,807.61401 152.08206,804.02248 79.136107,792.14669"
+           id="path2993-5-4"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccc" />
+      </g>
+      <path
+         inkscape:export-ydpi="223"
+         inkscape:export-xdpi="223"
+         inkscape:export-filename="/home/jfrey/onion_light/furniture.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path2993-6-6"
+         d="m 115.80943,549.80649 158.64315,-1.99289 36.91676,92.8247 -71.1849,0.99645"
+         style="fill:none;stroke:#808080;stroke-width:10.61959839;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:export-ydpi="223"
+         inkscape:export-xdpi="223"
+         inkscape:export-filename="/home/jfrey/onion_light/furniture.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path2993-6-4-6"
+         d="m 46.485703,507.73475 24.969078,84.02348 72.950639,-1.32832 -33.98864,53.30366"
+         style="fill:none;stroke:#808080;stroke-width:10.61959839;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <g
+         inkscape:export-ydpi="223"
+         inkscape:export-xdpi="223"
+         inkscape:export-filename="/home/jfrey/onion_light/sign_warning.png"
+         inkscape:label="Layer 1"
+         id="layer1-0"
+         transform="matrix(0.20913832,0,0,0.20913832,258.1011,417.96838)">
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#777777;fill-opacity:0.79729728;stroke:none;filter:url(#filter3172)"
+           d="m 213.05399,47.37801 c -4.21444,0.21749 -8.0347,2.54657 -10.15847,6.19326 L 33.940149,345.10803 c -2.2394,3.86491 -2.24648,8.63102 -0.01859,12.50258 2.2279,3.87156 6.35223,6.26023 10.81904,6.26604 l 336.928881,0.52869 c 4.46863,0.0134 8.60458,-2.35943 10.84845,-6.22387 2.24387,-3.86443 2.25436,-8.63271 0.0275,-12.50699 L 224.53419,53.60904 c -2.35105,-4.07005 -6.78637,-6.47738 -11.4802,-6.23103 l 0,0 z m 0.60422,37.46171 146.41036,254.5282 L 66.417039,338.91476 213.65821,84.83972 z"
+           id="path3152" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:url(#linearGradient3280);fill-opacity:1;stroke:#a37900;stroke-width:6.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 199.82666,41.494396 c -4.21444,0.217498 -8.03469,2.546575 -10.15847,6.193268 L 20.712823,339.22442 c -2.239399,3.86491 -2.246484,8.63102 -0.01859,12.50258 2.227898,3.87156 6.352222,6.26023 10.81904,6.26604 l 336.928867,0.52869 c 4.46863,0.0134 8.60459,-2.35943 10.84845,-6.22387 2.24387,-3.86443 2.25437,-8.63271 0.0275,-12.50699 L 211.30686,47.725427 c -2.35105,-4.070046 -6.78637,-6.477376 -11.4802,-6.231031 l 0,0 z M 200.43088,78.956113 346.84124,333.48431 53.189715,333.03115 200.43088,78.956113 z"
+           id="path2178" />
+        <path
+           sodipodi:arg2="1.5723975"
+           style="fill:url(#linearGradient3282);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient3284);stroke-width:20.6877861;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="path2160"
+           sodipodi:cx="91.428574"
+           sodipodi:cy="117.14286"
+           sodipodi:arg1="0.52519998"
+           sodipodi:type="star"
+           d="M 230.71429,197.85715 -48.114905,197.41068 91.686339,-43.839248 z"
+           sodipodi:r2="80.491158"
+           sodipodi:sides="3"
+           inkscape:randomized="0"
+           transform="matrix(1.2084425,0,0,1.2084425,89.669573,106.93911)"
+           inkscape:rounded="0"
+           sodipodi:r1="160.98232"
+           inkscape:flatsided="true" />
+        <path
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccsccscccc"
+           d="m 199.89464,117.765 c -2.60447,0.1366 -4.96532,1.5994 -6.2778,3.88973 L 89.204984,304.75655 c -1.383914,2.42736 -1.388294,5.42076 -0.01148,7.85232 1.376807,2.43157 3.925578,3.93179 6.686005,3.93544 l 208.216961,0.33205 c 2.76155,0.008 5.3175,-1.48187 6.70417,-3.90897 1.38668,-2.42707 1.39316,-5.42181 0.017,-7.85509 L 206.98922,121.67846 c -1.45291,-2.55624 -4.19388,-4.06817 -7.09458,-3.91346 l 0,0 z"
+           style="fill:#ffffff;fill-opacity:1;stroke:none"
+           id="path19491" />
+        <path
+           inkscape:connector-curvature="0"
+           style="font-size:333.22640991px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Angsana New"
+           d="m 203.68708,256.44083 -5.33337,0 c -0.55176,-9.45507 -2.39084,-20.77633 -5.51726,-33.96381 l -6.34485,-26.87246 c -3.8008,-16.1109 -5.70118,-27.64989 -5.70117,-34.61696 -10e-6,-14.05811 6.71265,-21.08726 20.13802,-21.08742 5.88502,1.6e-4 10.74328,1.94406 14.57476,5.83169 3.83137,3.88795 5.7471,8.84879 5.74715,14.88249 -5e-5,6.40724 -2.02305,18.07064 -6.069,34.9902 l -6.4368,26.87246 c -2.26825,9.4552 -3.95408,20.77645 -5.05748,33.96381 l 0,0 z m -2.48277,17.63505 c 6.25284,5e-5 11.09576,2.13055 14.52879,6.39154 3.4329,4.26106 5.14938,8.81756 5.14944,13.6695 -6e-5,6.40711 -2.08436,11.33683 -6.2529,14.78919 -4.16864,3.45237 -8.64376,5.17855 -13.42533,5.17855 -6.31424,0 -11.17248,-2.11497 -14.57478,-6.34488 -3.40232,-4.22993 -5.10348,-8.77088 -5.10346,-13.62286 -2e-5,-5.6606 1.88505,-10.41927 5.65519,-14.27599 3.77011,-3.85666 8.44444,-5.785 14.02305,-5.78505 l 0,0 z"
+           id="text2171" />
+      </g>
+    </g>
+    <g
+       id="g3221"
+       inkscape:export-filename="/home/jfrey/onion_light/sign_stop.png"
+       inkscape:export-xdpi="223"
+       inkscape:export-ydpi="223"
+       transform="matrix(0.57535038,0,0,0.57535038,-557.17384,-311.41708)" />
+    <g
+       id="g3352">
+      <path
+         sodipodi:type="star"
+         style="fill:url(#linearGradient3346);fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path3261"
+         sodipodi:sides="8"
+         sodipodi:cx="-79.738701"
+         sodipodi:cy="65.966873"
+         sodipodi:r1="30.535322"
+         sodipodi:r2="28.210958"
+         sodipodi:arg1="0.78539816"
+         sodipodi:arg2="1.1780972"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m -58.146967,87.558606 -21.591734,8.943589 -21.591729,-8.943588 -8.94359,-21.591734 8.94359,-21.591733 21.591729,-8.943589 21.591733,8.943589 8.943589,21.591733 z"
+         transform="matrix(-1.149934,-0.4763182,0.4763182,-1.149934,81.847862,178.47695)" />
+      <path
+         transform="matrix(-1.0513372,-0.43547804,0.43547804,-1.0513372,92.403931,175.22936)"
+         d="m -58.146967,87.558606 -21.591734,8.943589 -21.591729,-8.943588 -8.94359,-21.591734 8.94359,-21.591733 21.591729,-8.943589 21.591733,8.943589 8.943589,21.591733 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.1780972"
+         sodipodi:arg1="0.78539816"
+         sodipodi:r2="28.210958"
+         sodipodi:r1="30.535322"
+         sodipodi:cy="65.966873"
+         sodipodi:cx="-79.738701"
+         sodipodi:sides="8"
+         id="path3271"
+         style="fill:url(#linearGradient3344);fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.99217527999999999;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <text
+         transform="matrix(0.51518363,0,0,0.64254382,-557.17384,-311.41708)"
+         id="text3308"
+         y="717.81171"
+         x="1442.8904"
+         style="font-size:39.63391494999999765px;font-style:normal;font-weight:bold;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Arial"
+         xml:space="preserve"><tspan
+           y="717.81171"
+           x="1442.8904"
+           id="tspan3310"
+           sodipodi:role="line">???</tspan></text>
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path2993-6-6-0"
+         d="m 129.02044,207.38023 158.6432,-1.99289 36.91672,92.8247 -71.18488,0.99645"
+         style="fill:none;stroke:#808080;stroke-width:10.61959839;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path2993-6-4-6-14"
+         d="m 59.696758,165.30849 24.969055,84.02348 72.950627,-1.32832 -33.98865,53.30366"
+         style="fill:none;stroke:#808080;stroke-width:10.61959839;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3324"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:32px;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;text-align:center;-inkscape-font-specification:Sans"><flowRegion
+         id="flowRegion3326"><rect
+           id="rect3328"
+           width="638.41638"
+           height="418.20316"
+           x="832.36566"
+           y="286.66656" /></flowRegion><flowPara
+         id="flowPara3330" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3340"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:32px;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;text-align:center;-inkscape-font-specification:Sans"><flowRegion
+         id="flowRegion3342"><rect
+           id="rect3344"
+           width="602.0509"
+           height="575.78693"
+           x="949.5434"
+           y="993.77332" /></flowRegion><flowPara
+         id="flowPara3346" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3356"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:32px;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;text-align:center;-inkscape-font-specification:Sans"><flowRegion
+         id="flowRegion3358"><rect
+           id="rect3360"
+           width="539.42145"
+           height="472.75137"
+           x="884.89362"
+           y="1232.1693" /></flowRegion><flowPara
+         id="flowPara3362" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3364"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:32px;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;text-align:center;-inkscape-font-specification:Sans"><flowRegion
+         id="flowRegion3366"><rect
+           id="rect3368"
+           width="383.85797"
+           height="371.73615"
+           x="1050.5586"
+           y="1272.5754" /></flowRegion><flowPara
+         id="flowPara3370" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3332"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       transform="translate(-438.83557,575.23871)"><flowRegion
+         id="flowRegion3334"><rect
+           id="rect3336"
+           width="373.75644"
+           height="133.34012"
+           x="796.00018"
+           y="260.40259"
+           style="fill:#008000" /></flowRegion><flowPara
+         id="flowPara3338">Signal de bonne qualité.</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3348"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       transform="translate(-545.032,-407.50847)"><flowRegion
+         id="flowRegion3350"><rect
+           id="rect3352"
+           width="359.61429"
+           height="157.5838"
+           x="909.13727"
+           y="910.94086"
+           style="fill:#ff6600" /></flowRegion><flowPara
+         id="flowPara3354">Signal bruité à cause du mouvement.</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3372"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       transform="translate(-509.06325,-984.2135)"><flowRegion
+         id="flowRegion3374"><rect
+           id="rect3376"
+           width="296.9848"
+           height="141.42151"
+           x="894.99518"
+           y="1141.2556"
+           style="fill:#ff0000" /></flowRegion><flowPara
+         id="flowPara3378">Joueur non détecté.</flowPara></flowRoot>  </g>
+</svg>
