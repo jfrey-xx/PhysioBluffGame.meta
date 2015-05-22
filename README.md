@@ -6,6 +6,8 @@ Requirements:
 * openvibe 1.0.0
 * wmctrl (automation of programs)
 
+Suppose that this repo is cloned as ~/bluff_game folder (otherwise change tools/* accordingly).
+
 # How to
 
 ## setup XP conditions
@@ -120,6 +122,10 @@ python main.py --algo 1 --user-id 1
 
 python main.py --algo 1 --user-id 2
 
+## launch recorder
+
+tools/launch_labrecorder.sh
+tools/launch_ovrecorder.sh
 
 ## launch Processing and feedback
 
