@@ -1,2 +1,6 @@
+# recorded data
 /data
+# tools from outside
 /external
+# misc unwanted files
+.directory
