@@ -8,7 +8,7 @@ Suppose that this repo is cloned as ~/bluff_game folder (otherwise change tools/
 # Requirements:
 
 * openvibe 1.0.0
-* wmctrl (automation of programs)
+* wmctrl and xterm (automation of programs)
 
 * Processing libraries
     * lsllink 0.1
