@@ -25,7 +25,7 @@ sudo v4l2loopback-ctl set-fps 30 /dev/video6
 
 # NB: could also try v4l2ctrl -l config_file -d /dev/video1
 
-export GAIN=16
+export GAIN=0
 
 v4l2-ctl -d /dev/video1 --set-parm=30 \
   --set-ctrl focus_automatic_continuous=1 \
