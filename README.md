@@ -9,6 +9,7 @@ Suppose that this repo is cloned as ~/bluff_game folder (otherwise change tools/
 
 * openvibe 1.0.0
 * wmctrl and xterm (automation of programs)
+* libboost-all-dev and python-pyside for LabRecorder
 
 * Processing libraries
     * lsllink 0.1
