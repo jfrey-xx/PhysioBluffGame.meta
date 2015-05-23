@@ -16,13 +16,13 @@ SLEEPY=4
 
 # parameters for each instance
 PARAMS_1="--algo 1 --user-id 0"
-DESKTOP_1="2"
+DESKTOP_1="1"
 
 PARAMS_2="--algo 1 --user-id 1"
-DESKTOP_2="3"
+DESKTOP_2="2"
 
 PARAMS_3="--algo 1 --user-id 2"
-DESKTOP_3="4"
+DESKTOP_3="3"
 
 # remember current desktop to go back here after
 # FIXME: may not work with a *vast* amount of desktop

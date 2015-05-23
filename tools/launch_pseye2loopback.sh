@@ -9,20 +9,20 @@ BINARY="xterm -hold -e"
 
 # soft that'll be launched and its folder
 TARGET_FOLDER="~/bluff_game/pseye_unleashed/convert_raw/"
-TARGET_COM="./pseye2loopback --width 640 --height 480"
+TARGET_COM="./pseye2loopback --width 640 --height 480 --vflip --hflip"
 
 # waiting time between launch (s)
 SLEEPY=4
 
 # parameters for each instance
 PARAMS_1="--video-in /dev/video1 --video-out /dev/video4"
-DESKTOP_1="2"
+DESKTOP_1="1"
 
 PARAMS_2="--video-in /dev/video2 --video-out /dev/video5"
-DESKTOP_2="3"
+DESKTOP_2="2"
 
 PARAMS_3="--video-in /dev/video3 --video-out /dev/video6"
-DESKTOP_3="4"
+DESKTOP_3="3"
 
 # remember current desktop to go back here after
 # FIXME: may not work with a *vast* amount of desktop

@@ -16,13 +16,13 @@ SLEEPY=4
 
 # parameters for each instance
 PARAMS_1="--webcam 4 --user-id 0 --algo 1"
-DESKTOP_1="2"
+DESKTOP_1="1"
 
 PARAMS_2="--webcam 5 --user-id 1 --algo 1"
-DESKTOP_2="3"
+DESKTOP_2="2"
 
 PARAMS_3="--webcam 6 --user-id 2 --algo 1"
-DESKTOP_3="4"
+DESKTOP_3="3"
 
 # remember current desktop to go back here after
 # FIXME: may not work with a *vast* amount of desktop
