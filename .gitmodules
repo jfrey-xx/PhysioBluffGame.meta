@@ -10,3 +10,6 @@
 [submodule "pdp_kinect"]
 	path = pdp_kinect
 	url = git@bitbucket.org:nomhad/pdp_kinect.git
+[submodule "libfreenect2"]
+	path = libfreenect2
+	url = git@github.com:jfrey-xx/libfreenect2.git
