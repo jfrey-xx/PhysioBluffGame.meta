@@ -1,12 +1,17 @@
 #!/bin/sh
 
 # load modules
-sudo modprobe v4l2loopback video_nr=4,11,12,13 card_label="ps eye raw 0","kinect 2 rgb", "kinect 2 ir", "kinect 2 depth" 
+sudo modprobe v4l2loopback video_nr=2,3,4,5 card_label="ps eye raw 0","kinect 2 rgb","kinect 2 ir","kinect 2 depth" 
 
 # set v4l2loopback to 30fps
+v4l2-ctl -d /dev/video2 --set-ctrl  sustain_framerate=1
+v4l2-ctl -d /dev/video3 --set-ctrl  sustain_framerate=1
 v4l2-ctl -d /dev/video4 --set-ctrl  sustain_framerate=1
+v4l2-ctl -d /dev/video5 --set-ctrl  sustain_framerate=1
+sudo v4l2loopback-ctl set-fps 30 /dev/video2
+sudo v4l2loopback-ctl set-fps 30 /dev/video3
 sudo v4l2loopback-ctl set-fps 30 /dev/video4
-
+sudo v4l2loopback-ctl set-fps 30 /dev/video5
 
 # Enable raw mode and set frame rate for ps eye, setup exposure / focus mode / flip / light param
 # (0 is webcam for tracking)
