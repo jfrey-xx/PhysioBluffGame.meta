@@ -1,5 +1,6 @@
 # recorded data
 /data
+/data_validation
 # tools from outside
 /external
 # misc unwanted files
