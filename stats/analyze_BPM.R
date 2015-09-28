@@ -7,6 +7,7 @@ library(reshape)
 library(zoo)
 # gives "unit" command for margins
 library("grid")
+library(stats)
 
 # data location
 data_path = "~/bluff_game/data_validation/results/";
@@ -100,7 +101,8 @@ for (s in levels(data$session)) {
 
 ## plot across time, one panel for each PPG device
 
-dataPPG <- data[data$construct == "ppg",]
+dataPPG <- droplevels(data[data$construct == "ppg",])
+
 splot <- ggplot(data=dataPPG, aes(x = time, y = av))  + 
     # ref ECG, base02 color
     geom_line(aes(y = ref_av), color="#073642", alpha=0.66) +
@@ -121,18 +123,24 @@ ggsave(path=output_plot_folder , filename=paste(tag, ".pdf",sep=""), plot=splot,
 cat("# correlation\n\n")
 
 # PPG against the world
-dataPPG <- data[data$construct == "ppg",]
+dataPPG <- droplevels(data[data$construct == "ppg",])
 
 # holders for p value and R score
 nbSessions <- length(unique(dataPPG$session))
 nbDevices <- length(unique(dataPPG$device))
+
+# pearson -- linear correlation
 cor_r <- array(dim=c(nbSessions,nbDevices))
-cor_p <- array(dim=c(nbSessions,nbDevices))
+rownames(cor_r) <- levels(dataPPG$session)
+colnames(cor_r) <- levels(dataPPG$device)
+cor_p <- cor_r
 
+# spearman -- monotonic, for info
+cor_p_spear <- cor_r
+cor_r_spear <- cor_r
 
-for (s in 1:length(unique(dataPPG$session))) {
+for (s in 1:length(levels(dataPPG$session))) {
    sub <- levels(dataPPG$session)[s]
-   cat("\n\n=== Session:", sub, "=== \n")
    dataSelect <- dataPPG[dataPPG$session == sub,]
    keeps <- c("device", "time", "HR")
    dataSelect <- dataSelect[keeps]
@@ -145,14 +153,101 @@ for (s in 1:length(unique(dataPPG$session))) {
    ref_HR <- dataPPG[dataPPG$session == sub & dataPPG$device == levels(dataPPG$device)[1],]$ref_HR
    
    # run correlation
-   resCor <- rcorr(as.matrix(dataSelectWide), ref_HR, type="pearson")
-   print(resCor)
-   
+   resCor <- rcorr(as.matrix(dataSelectWide), ref_HR, type="pearson")  
    # keep data for later (y row of rcorr results)
    cor_r[s, ] <- resCor$r[nbDevices+1,1:nbDevices]
    cor_p[s, ] <- resCor$P[nbDevices+1,1:nbDevices]
+   
+   # juste for the record
+   resCor_spear <- rcorr(as.matrix(dataSelectWide), ref_HR, type="spearman")
+   cor_r_spear[s, ] <- resCor_spear$r[nbDevices+1,1:nbDevices]
+   cor_p_spear[s, ] <- resCor_spear$P[nbDevices+1,1:nbDevices]
 }
 
+## correlation summary
+
+# now some descriptive stats
+
+cat("\n\n\n ---------------------- \n\n\n")
+
+cat("# correlation - summary \n\n")
+
+# get all p-values right
+cor_p_adjust <- array(
+  p.adjust(cor_p, method = "fdr", n = length(cor_p)),
+  dim=c(nbSessions,nbDevices)
+)
+rownames(cor_p_adjust) <- levels(dataPPG$session)
+colnames(cor_p_adjust) <- levels(dataPPG$device)
+
+cor_p_spear_adjust <- array(
+  p.adjust(cor_p_spear, method = "fdr", n = length(cor_p_spear)),
+  dim=c(nbSessions,nbDevices)
+)
+rownames(cor_p_spear_adjust) <- levels(dataPPG$session)
+colnames(cor_p_spear_adjust) <- levels(dataPPG$device)
+
+# print all of that
+
+cat("\n\n ==== Pearson correlation ==== \n")
+
+cat("\n\n -- R scores -- \n\n")
+print(cor_r)
+
+cat("\n\n -> summary \n")
+summary(cor_r)
+
+cat("\n\n -> SD \n")
+apply(cor_r, 2, sd)
+
+cat("\n\n -- p values -- \n\n")
+print(cor_p)
+
+cat("\n\n -> summary \n")
+summary(cor_p)
+
+cat("\n\n -> SD \n")
+apply(cor_p, 2, sd)
+
+cat("\n\n -- p values, FDR adjusted -- \n\n")
+print(cor_p_adjust)
+
+cat("\n\n -> summary \n")
+summary(cor_p_adjust)
+
+cat("\n\n -> SD \n")
+apply(cor_p_adjust, 2, sd)
+   
+   
+
+cat("\n\n\n === For info, spearman correlation  === \n")
+
+cat("\n\n -- R scores -- \n\n")
+print(cor_r_spear)
+
+cat("\n\n -> summary \n")
+summary(cor_r_spear)
+
+cat("\n\n -> SD \n")
+apply(cor_r_spear, 2, sd)
+
+cat("\n\n -- p values -- \n\n")
+print(cor_p_spear)
+
+cat("\n\n -> summary \n")
+summary(cor_p_spear)
+
+cat("\n\n -> SD \n")
+apply(cor_p_spear, 2, sd)
+
+cat("\n\n -- p values, FDR adjusted -- \n\n")
+print(cor_p_spear_adjust)
+
+cat("\n\n -> summary \n")
+summary(cor_p_spear_adjust)
+
+cat("\n\n -> SD \n")
+apply(cor_p_spear_adjust, 2, sd)
 
 sink()
 
