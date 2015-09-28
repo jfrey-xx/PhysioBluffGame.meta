@@ -115,7 +115,44 @@ splot <- ggplot(data=dataPPG, aes(x = time, y = av))  +
     theme(plot.margin = unit(c(0,0,0,0), "cm"), text = element_text(size=20))
 ggsave(path=output_plot_folder , filename=paste(tag, ".pdf",sep=""), plot=splot, width=14, height=7)
 
-      
+
+## correlation
+
+cat("# correlation\n\n")
+
+# PPG against the world
+dataPPG <- data[data$construct == "ppg",]
+
+# holders for p value and R score
+nbSessions <- length(unique(dataPPG$session))
+nbDevices <- length(unique(dataPPG$device))
+cor_r <- array(dim=c(nbSessions,nbDevices))
+cor_p <- array(dim=c(nbSessions,nbDevices))
+
+
+for (s in 1:length(unique(dataPPG$session))) {
+   sub <- levels(dataPPG$session)[s]
+   cat("\n\n=== Session:", sub, "=== \n")
+   dataSelect <- dataPPG[dataPPG$session == sub,]
+   keeps <- c("device", "time", "HR")
+   dataSelect <- dataSelect[keeps]
+   
+   # Hmisc works on matrix. first long to wide, drop freq column
+   dataSelectWide <- reshape(dataSelect, idvar = "time", timevar = "device", direction = "wide")
+   dataSelectWide <- dataSelectWide[,2:length(dataSelectWide)]
+   
+   # take out the ECG column of on device (it's the same for all)
+   ref_HR <- dataPPG[dataPPG$session == sub & dataPPG$device == levels(dataPPG$device)[1],]$ref_HR
+   
+   # run correlation
+   resCor <- rcorr(as.matrix(dataSelectWide), ref_HR, type="pearson")
+   print(resCor)
+   
+   # keep data for later (y row of rcorr results)
+   cor_r[s, ] <- resCor$r[nbDevices+1,1:nbDevices]
+   cor_p[s, ] <- resCor$P[nbDevices+1,1:nbDevices]
+}
+
 
 sink()
 
