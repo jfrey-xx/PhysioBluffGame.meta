@@ -3,13 +3,13 @@
 	url = git@github.com:potioc/PhysioBluffGame.git
 [submodule "pseye_unleashed"]
 	path = pseye_unleashed
-	url = git@bitbucket.org:nomhad/pseye_unleashed.git
+	url = git@github.com:jfrey-xx/pseye_unleashed.git 
 [submodule "OVDLSLReader"]
 	path = OVDLSLReader
-	url = git@bitbucket.org:nomhad/ovdlslreader.git
+	url = git@github.com:jfrey-xx/OVDLSLReader.git 
 [submodule "pdp_kinect"]
 	path = pdp_kinect
-	url = git@bitbucket.org:nomhad/pdp_kinect.git
+	url = git@github.com:jfrey-xx/multiPPG.git
 [submodule "libfreenect2"]
 	path = libfreenect2
 	url = git@github.com:jfrey-xx/libfreenect2.git
